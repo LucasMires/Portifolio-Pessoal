@@ -1,0 +1,155 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(79, 79, 79)
+}
+
+/*----- Cabeçalho -----*/
+#cabecalho {
+    border: 1px solid black;
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(31, 31, 31);
+    border-bottom: 0.4rem solid rgb(238, 2, 2);
+}
+
+#img_box {
+    width: 6.7rem;
+    height: 7rem;
+    max-height: 100%;
+    margin: 0.4rem 0rem auto 1.2rem;
+    border-radius: 100%;
+    box-shadow: 0px 0px 7px 9px rgba(0,0,0,0.11);
+    overflow: hidden;
+    position: relative;
+}
+
+#header_img {
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    top: -33%;
+    transition: 370ms;
+}
+
+#header_img:hover {
+    transform: scale(1.2);
+}
+
+.topicos {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    margin-right: 1.2rem;
+}
+
+.topicos_options {
+    font-size: 1.3rem;
+    font-weight: 500;
+    border-bottom: 3px solid transparent;
+    border-left: 3px solid transparent;
+    transition: 270ms;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: #fff;
+    background-color: rgb(238, 2, 2);
+    
+}
+
+.topicos_options:hover {
+    transform: scale(1.06);
+    border-bottom: 3px solid #fff;
+    border-left: 3px solid #fff;
+}
+/*----- Cabeçalho Finalizado -----*/
+
+/*----- Caixa do Conteúdo Principal -----*/
+#maincontent {
+    max-width: 100%;
+    margin: auto 4rem auto 4rem;
+}
+/*----- Caixa do Conteúdo Principal Finalizado -----*/
+
+/*----- Primeira Seção -----*/
+#secao1 {
+    max-width: 100%;
+    padding-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+/*----- Primeira Seção Finalizada -----*/
+
+/*----- Primeiro Artigo -----*/
+.artigo1 {
+    border: 0.4vh solid  rgb(47, 46, 46);
+    width: 30vw;
+    height: 60vh;
+    border-radius: 100%;
+    overflow: hidden;
+    background-image: url(./../img/Sonic-Mania-Like.jpg);
+    background-size: 30rem 23.5rem;
+    background-position-x: 30%;
+    margin: 0 0 2rem 2rem ;
+    box-shadow: 0px 0px 7px 9px rgba(0,0,0,0.21);
+    
+}
+
+.artigo1:hover div {
+    background-color: rgba(0, 0, 0, 0.741);
+
+}
+
+.artigo1:hover div > p {
+    font-size: 1.2rem;
+}
+
+.div_artigo {
+    width: 30vw;
+    height: 60vh;
+    background-color: rgba(0, 0, 0, 0.565);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transition: 400ms;
+}
+
+.article_paragraph {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: 400ms;
+}
+/*----- Primeiro Artigo Finalizado -----*/
+
+#barreira {
+    border: 0.4vw solid rgb(10, 10, 10);
+
+}
+
+
+/*----- Primeiro Segundo -----*/
+.artigo2 {
+    width: 50%;
+    height: 100%;
+    
+}
+
+.subTitle {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: rgb(5, 5, 5);
+
+}
+
+.aritgo2Description {
+    color: #fff;
+    margin-top: 1rem;
+    background-color: rgba(0, 0, 0, 0.84);
+    border: 0.2rem dashed #fff;
+    border-radius: 1rem;
+    padding: 0.4rem;
+    font-size: 1.4rem;
+}
+
+/*----- Primeiro Segundo Finalizado -----*/
